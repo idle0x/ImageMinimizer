@@ -1,0 +1,9 @@
+#ignore package
+node_modules/
+vendor/
+.phpunit.cache/
+.phpunit.result.cache
+composer.lock
+package-lock.json
+
+resource/

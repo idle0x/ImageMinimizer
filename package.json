@@ -1,0 +1,16 @@
+{
+  "name": "imageoptimizer",
+  "version": "1.0.0",
+  "description": "PHP wrapper for nodejs sharp and svgo",
+  "main": "image_optimizer_cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.29.0",
+    "svgo": "^2.5.0",
+    "yargs": "^17.1.1"
+  }
+}

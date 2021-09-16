@@ -1,0 +1,24 @@
+{
+    "name": "idleo/image-optimizer",
+    "description": "PHP wrapper for nodejs sharp and svgo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Idleo\\ImageOptimizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonid Vilisov",
+            "email": "idleo@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "require": {
+        "symfony/var-dumper": "6.0.x-dev"
+    }
+}
